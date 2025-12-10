@@ -1,0 +1,76 @@
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: lightcoral;
+    display: grid;
+     grid-template-rows: 100px 100px 100px ; 
+     grid-template-columns: 200px 200px 200px ; 
+      row-gap: 10px;
+     column-gap: 10px;
+    
+   /* justify-items: center  /* end start*/; 
+   /* align-items:  center; */ 
+
+   place-items: center;
+
+
+}
+             /* grid mai 2 properties hay hamaray pas  ak    justify-items  ju items  ko veriticaly arrange karta hay
+            aur dusra   align-items  jo  horizontal items ko arrange karta hay */
+
+
+
+
+ .item{
+            height: 50px;
+            width: 100px;
+            background-color: yellowgreen;
+            border: 2px solid;
+            text-align: center;
+            font-size: larger;
+        }
+
+
+        
+        #one{
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+
+            /* shorthand
+            grid-column: 1/3; */
+
+
+            /* grid coulmn
+             define an item's starting and ending position inside 
+             inside the coulmn */
+
+            /* justify-self: end;
+            align-self: start; */
+            place-self: start;
+
+
+
+             
+        }
+
+
+        /* estarh hamary pas 2 aur properties hota hay ju
+              justify-self  aur align- self   ye uper dono ke jesay kam
+              karta hay  but ye serap ak item per hum
+              applay kartay hay jesa uper one item per hum nay applay kya */
+
+
+
+
+
+            /* per 2 properties aur b hy estar agar hum chata hay ka 
+            dono vertical aur horizontal same arrange karay tu pre
+            hum place item aur place self  ko use kartay hay  */
+
+
+              
+
+
+      
+
+        

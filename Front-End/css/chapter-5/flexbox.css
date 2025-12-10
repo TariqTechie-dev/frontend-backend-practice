@@ -1,0 +1,42 @@
+/* whati is flex box?
+flex-box layout
+
+it is one-dimentionl layout method for arranging items in coulm or rows
+flex-box help us arrange the content in our web page
+it is make our website resposive means  it is fit in every device */
+
+.container{
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    border:2px solid ;
+    margin: 10px auto;
+    display: flex;  
+     /*it will fit in the container and not overflow 
+      row direction*/
+      flex-direction: row; /*  ye bidifiult row ke form me hota hay */
+      /* flex-direction: column-reverse; */
+      /* flex-direction: row-reverse; */
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-content: space-between;
+     
+    
+}
+h1{
+    text-align: center;
+}
+.container div{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+     color: wheat;
+     font-size: larger
+     
+}
+
+
+/* jab hum flexbox property use karta hay tu hamaray 
+2 concept atay hay ak  main axis hota hay ju horizontal hota hay ju left say right jata hay aur dusra cross ju vertical
+hota hay ju top say bottom jata hay  jab hum flexbox ka direction ko row property deta hay tu hamaray pas row mai axis  hota hay aur jab coulm ko deta hy to coulm hota hy aur dosra cross hota hay
+row-rewerse aur coulm-rewerse eskay opposite hota hay matlab right to left aur bottom to top  */

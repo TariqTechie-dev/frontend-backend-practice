@@ -1,0 +1,42 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    animation-name: fontsize;
+    /* animation-duration: 1s;
+    animation-delay:0s;
+    animation-timing-function:ease-in ;
+    animation-iteration-count: 3;        /*  animation iteration ka matlab ketnay bar animation hogay */
+                                            /* agar hum cahtay hay ka animation barqarar rahay to hum infinite 
+                                            property use karangay*/ 
+    /* animation-direction: normal ; alternate reverse alternate-reverse*/
+    
+       /* shorthand */
+       animation: Animate 1s ease-in 5 0s normal;
+
+   
+}
+
+          /* ye animation ka name kuch b hum lek saktay hay */
+@keyframes Animate{             
+    from
+    {font-size: 30px;
+    background-color: blue;
+    border-radius:8px ;}
+    to
+    {
+        font-size: 50px;
+        background-color: gold;
+        border-radius: 20px;
+    }
+}
+  /* ye ak blue frint hay animation ke
+  matlab ak design hay  esko create karnay
+  say hamaray animation create nahi hoga
+  jab tak hum uper ju properties hay o applay 
+  na karay */
+
+  /* it is similar to transition but yaha per serap
+  humay tura sa contro meltay hay bas */
+
+

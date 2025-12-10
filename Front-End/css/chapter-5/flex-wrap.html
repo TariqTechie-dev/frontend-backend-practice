@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>flex-wrap property</title>
+    <style>
+        .container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    border:2px solid ;
+    margin: 10px auto;
+    display: flex;
+     flex-direction: row;
+    flex-wrap: wrap ; }  
+              /* wrap ,wrap-reverse, nowrap */
+    /* flex-wrap set whether flex items are forced onto one line or 
+    can wrap onro mulitipe line */
+
+
+
+
+
+     .container div{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+     color: wheat;
+     font-size: larger;}
+    
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color:#9400d3;">violet</div>
+        <div style="background-color:  #4b0082;">indigo</div>
+        <div style="background-color:#0000ff;">blue</div>
+        <div style="background-color:#00ff00;">green</div>
+        <div style="background-color:#ffff00;">yellow</div>
+        <div style="background-color:#ff7f00;">orange</div>
+        <div style="background-color:#ff0000;">red</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+what is node js
+
+  🌐 Node.js kya hai?
+- Node.js ek software / runtime environment hai.
+- Ye JavaScript ko sirf browser mai chalane ke bajaye, computer ke andar (server side) chalane ki power deta hai.
+- Matlab: JavaScript sirf website ke front-end (HTML, CSS ke sath) tak limited nahi rehta, balki backend ka kaam bhi kar sakta hai.
+🛠️ Simple Example
+Socho tumhari website hai:
+- Front-end: User ko dikhne wali cheezen (buttons, forms, images).
+- Back-end: Data store karna, user login check karna, database se baat karna.
+Node.js tumhe JavaScript se backend ka code likhne ki facility deta hai.
+Pehle backend ke liye alag languages use hoti thi (PHP, Java, Python), ab tum JavaScript se dono kaam kar sakte ho.
+
+✨ Fayde
+- Fast hai: Kyunki ye Google Chrome ka V8 engine use karta hai.
+- Ek hi language: Front-end aur Back-end dono JavaScript mai likh sakte ho.
+- Popular hai: Bohat saare tools, libraries aur frameworks (jaise Express.js) Node.js par based hain.
+ 
+
+🔑 Process kya hai?
+- Jab tum Node.js program run karte ho, to computer ek process banata hai jo tumhara code execute karta hai.
+- Ye process tumhare program ka runtime environment hota hai — jahan tumhara code chal raha hota hai.
+- Matlab: "process" ek object hai jo tumhe tumhare program ke baare mai information deta hai.
+
+📌 Process Object ke Kaam
+Node.js mai process ek global object hai. Tumhe import karne ki zarurat nahi, seedha use kar sakte ho.
+Kuch important cheezen jo process se milti hain:
+- process.pid → Tumhare program ka unique ID (Process ID).
+- process.version → Node.js ka version.
+- process.platform → Tumhara OS (Windows, Linux, macOS).
+- process.cwd() → Current working directory (jahan se tumne program run kiya).
+- process.argv → Command line arguments jo tum program run karte waqt dete ho.
+- process.exit() → Program ko manually band karne ke liye.
+
+
+

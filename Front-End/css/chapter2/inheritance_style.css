@@ -1,0 +1,9 @@
+div{
+    background-color: yellowgreen;
+}
+
+/* yaha per agar hum dekay tu div ak parent hay aur baqi sab child mai ata hay lekin child apnay parent ko dekay gay ka eska kya property ho aur esko inherit karayga likin kuch child esa hay ka o apnay parent ka property copy nahi karta jesa kay input aur button  au b buhot say hay jesa width hight border eck eskaly hum following tariqa use karangay*/
+
+/* input,button{
+    background-color: inherit;
+} */

@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;  /* horizontally center */
+  align-items: center;      /* vertically center */
+  height: 100vh;            /* full screen height */
+  margin: 0;
+  background-color: #f4f4f4; /* optional */
+}
+
+div {
+  background: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.flash{
+  background-color: white;
+}

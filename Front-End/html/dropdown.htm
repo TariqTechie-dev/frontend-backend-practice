@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            chose your propetion
+            <select name="propetion" id="propetion">
+                <option>select your option</option>
+                <option value="Std">student</option>
+                <option value="Dev">developer</option>
+                <option value="tec">Teacher</option>
+                <option value="Doc">doctor</option>
+                <option value="un">unemploement</option>
+                <option value="nur">nurse</option>
+                <option value="bur">burger</option>
+                <option value="far">farmer</option>
+                
+            </select>
+            <br>
+            <label for="vlume">select your volume</label>
+            <input type="range" id="vlume" name="vlm" min="0" max="100" step="5" value="50">
+            <br>
+            <label for="feedback">please give your feedback</label>
+            <textarea id="feedback" name="feedback" rows="5" cols="15" placeholder="write your feed"></textarea>
+            <button>submit</button>
+        </div>
+
+         </form>
+        <div>
+        <form action="/goto">
+            <h1>Registaration form</h1>
+            <input type="text" placeholder="enter your first name">
+            <input type="text" placeholder="enter your secound name"><br>
+            please selec gender
+            <select name="gender" id="gender">
+                <option value="male" id="gender">male</option>
+                <option value="female" id="gender">female</option>
+             </select><br>
+             <label id="check">Do you agree to all term of services</label>
+             <input type="checkbox" id="check">
+             <label for="check">yes,I agree</label><br>
+             <button>submit</button>
+
+        </form>
+      </div>
+
+
+    </body>
+    
+</html>

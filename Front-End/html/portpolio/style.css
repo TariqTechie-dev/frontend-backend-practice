@@ -1,0 +1,21 @@
+#h{ 
+    background-color: rgb(43, 205, 226);
+    
+    text-align: center;
+    border: solid;
+    margin: auto;
+    
+}
+p{background-color: rgb(255, 208, 205);
+    text-align: center;
+    padding: 20px;
+    border: solid crimson;
+    margin: 10px;
+    
+
+}
+.head{
+    background-color: blueviolet;
+    margin-top: 0%;
+
+}

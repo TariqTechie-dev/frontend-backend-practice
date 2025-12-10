@@ -1,0 +1,37 @@
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+    border: 2px solid black;
+}
+
+#one{background-color: aqua;
+    position: relative;
+    z-index: 3;     
+
+      /* ab yaha per hum nay z-index ka value 1 raka 
+      tu  ab div1 samnay ke tarap ayga matlab jes 
+      element ka z-index zyada hoga o front per ayga   aur ak aur bat jab tak agar hum chahtay hay ka ak element ko z-index deday tu pehla hum esko position deyngay 
+      aur ak element ke position static ya default position nahi hona chay hay warna ye kam nahi karay ga ye tu position relative ya aur but static aur default nahi*/
+
+
+
+}
+#two{
+    background-color: darksalmon;
+    position: relative;
+  bottom: 50px;
+  z-index: 2;
+  
+
+                     /*  yaha per ye overlape karay
+                         ga div 1 per 
+                         ab agar hum chatay hay ka ye overlep control karay tu hum z-index property ko use karayngay*/
+}
+
+
+
+       /* z-index  */
+       /* it desides the stack  level of elements
+       es property ka kam ye hay ka kunsay element 
+       oper level per ayge aur konse nechay level per */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>justify-contient in flexbox</title>
+    <style>
+        .container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    border:2px solid ;
+    margin: 10px auto;
+    display: flex;
+     flex-direction: column-reverse; 
+    /* justify-content: flex-end; /*flex-start*/     
+       justify-content: center;  
+        justify-content: space-around;
+                        /* space-between ,space-evenly */      } 
+    
+    /* justify-content proeperty flexbox ke andar ju content hota hay 
+    eskay main axis ke darmian ka ju space hota hay es ko control karta hy 
+    it is used to destribute our itme along the main axis*/
+
+    .container div{
+    height: 20px;
+    width: 300px;
+    text-align: center;
+     color: wheat;
+     font-size: larger;
+     
+}
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div style="background-color:#9400d3;">violet</div>
+        <div style="background-color:  #4b0082;">indigo</div>
+        <div style="background-color:#0000ff;">blue</div>
+        <div style="background-color:#00ff00;">green</div>
+        <div style="background-color:#ffff00;">yellow</div>
+        <div style="background-color:#ff7f00;">orange</div>
+        <div style="background-color:#ff0000;">red</div>
+    </div>
+</body>
+</html>

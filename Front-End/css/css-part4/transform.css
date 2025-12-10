@@ -1,0 +1,45 @@
+section{margin-top: 100px;
+                        }
+        div{
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            border: 2px solid black;
+            background-color: #7aa874;
+            margin: 10px auto;
+        }
+        div:nth-of-type(2n){
+            background-color:#56bcda ;
+        }
+        div:nth-of-type(3n){
+            background-color: #86ab;
+        }
+         
+        /* transform */
+
+             /* (1)rotate */
+          #one{transform: rotate(45deg);}
+
+          /* (2)scale */
+          #two{
+            transform: scale(0.5,2);
+          }
+
+          /*(3) translate */
+          #three{
+            transform: translateX(-100px);
+            /* transform: translatey(200px); */
+            /* transform: translate(100px,200px); */
+          }
+              /* (4) skew */
+          #foure{
+            transform: skew(30deg);
+            /* transform: skewX(40deg);
+            transform: skewy(40deg); */
+          }
+          
+          /* shorthand */
+
+          #five{
+            transform: rotate(40deg) translateX(80px) skew(32deg);
+          }

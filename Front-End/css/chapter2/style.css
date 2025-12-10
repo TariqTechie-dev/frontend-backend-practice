@@ -1,0 +1,128 @@
+*{
+    background-color: rgb(69, 42, 165);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}          
+         /* it is universal selector*/
+
+
+h1,h3{
+    color: #b92b27  /* it is grouping selector*/
+}
+
+#login{
+    background-color: yellow;
+    font-style: italic;
+}
+    /* these both are id selectors*/
+#signup{
+    background-color: rgb(0, 255, 34);
+    font-style: italic;
+}
+
+/* it is class selector every element have multiple clss */
+
+.upvote{
+    background-color: darkkhaki;
+    
+}
+  
+
+
+.post a{
+    background-color: rgb(206, 2, 247);
+    color: rgb(54, 14, 14);
+}
+   /* these both are descendnt selectors*/
+
+   /*the followin one is two decendnt*/
+
+nav ul , a {
+    color: rgb(22, 16, 16);
+}
+
+
+/*adjcent or sibling combinator*/
+
+
+/*eska matlab hay ka upvote class kay bad imediatly
+ju button ata hay esko selec karo */
+
+.upvote+button{
+    background-color: beige;
+}
+
+
+/*child combination
+ es kay baji hum zyad descendent ko use kartay hay*/
+
+div > input{
+      background-color: aliceblue;
+}
+
+/*attribute selector*/
+input[type="text"]{
+    color: rgb(212, 0, 255);
+}
+input[type="password"]{
+    color: #b92b27;
+}
+
+
+
+/* psedo class*/
+
+/* A keyword add to a selector that specifies a special state
+of the selected element some of them are following*/
+
+ /*:hover,:active, :checked, :nth-of-type()*/
+
+
+ div input:hover{
+    background-color: rgb(13, 35, 230);
+    border: solid 3px;
+    
+    
+ }
+
+button:active{
+    background-color: black;
+    color:yellow;
+}
+
+input[type="radio"]:checked+label{
+    color: #b92b27;
+    
+    font-weight: bold;
+}
+
+:nth-of-type(2){
+    background-color: 3;
+}
+
+
+
+/* psedo elements  ::*/
+/* a keyword add to a selector that lets you style a specific part of the selected element(s)
+they are diffirents type which are following*/
+
+
+
+/* ::first-letter*/
+
+h1::first-letter{
+    color:springgreen;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 10px 50px 50px 130px
+}
+/* ::first-line*/
+p::first-line{
+    color: sienna
+}
+
+/* ::selection. if we want to selet text on website after is color change to the following color then we used section psedo element  */
+p::selection{
+    color: rgb(255, 0, 191);
+
+}
+

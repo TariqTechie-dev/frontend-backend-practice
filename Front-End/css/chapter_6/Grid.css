@@ -1,0 +1,53 @@
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: lightcoral;
+    display: grid;
+     grid-template-rows: 50px 50px 50px 50px 50px; 
+    grid-template-columns: 200px 200px 200px ; 
+
+    /*grid be same flex box ke tara layout manage
+        karta hay lekin flexbox one dimention 
+        may layout manage karta hay ye two dimention mai ya row ya coulm
+        aur grid two dimention mai  */
+
+
+   
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
+
+
+        /* Grid Template  */
+        /* repeat is used to divide all avilible space 
+        hamaray pas jetnay be avilibale space hay agar hum
+        cahtay hay ka esko equaly divide karay tu hu auto
+        say ak aur better tariqa hay ju hum use karta hy 
+        repeat */
+
+
+
+
+
+
+
+
+   
+}
+     
+
+ 
+
+
+
+
+
+
+
+        .item{
+            /* height: 50px;
+            width: 100px; */
+            background-color: yellowgreen;
+            border: 2px solid;
+            text-align: center;
+            font-size: larger;
+        }

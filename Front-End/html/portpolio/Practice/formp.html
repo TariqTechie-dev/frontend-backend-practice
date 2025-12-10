@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        * {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/server">
+        <fieldset>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br><br>
+            </div>
+            <div>
+                &nbsp; SEX:
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="fem" name="gender">
+                <label for="fem">Female</label>
+                <input type="radio" id="other" name="gender">
+                <label for="othere">othere</label>
+            </div>
+            <br>
+            <div>
+                COUNTARY:
+                <select name="countary" id="countary">
+                    <option value="select" id="countary">select an option </option>
+                    <option value="select" id="countary">PAKISTAN </option>
+                    <option value="select" id="countary">INDIA </option>
+                    <option value="select" id="countary">USA </option>
+                    <option value="select" id="countary"> CHINA</option>
+                    <option value="select" id="countary">ENGLAND </option>
+                </select>
+            </div>
+            <br>
+            <div>
+                MESSAGE: <br>
+                <textarea name="" id=""></textarea>
+            </div>
+            <br>
+            <input type="checkbox" id="sub">
+            <label for="sub">Subscribe?</label><br><br>
+            <button>submit</button>
+
+    </form>
+
+    <form action="/goto">
+        <H1>Feedback Form</H1>
+        <label for="nam">Name:</label>
+        <input type="text" name="name" id="nam" placeholder="what is your name?"> <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="what is your email?">
+        <br><br>
+        <div>
+            MESSAGE: <br>
+            <textarea name="" id=""></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Feedback">Rate us out of 5:</label><br>
+            <input type="radio" name="Feedback" id=""><br>
+            <input type="radio" name="Feedback" id=""><br>
+            <input type="radio" name="Feedback" id=""><br>
+            <input type="radio" name="Feedback" id=""><br>
+            <input type="radio" name="Feedback" id="">
+        </div>
+        <br>
+        <button>Sent your message</button>
+
+    </form>
+
+    </fieldset>
+</body>
+
+</html>

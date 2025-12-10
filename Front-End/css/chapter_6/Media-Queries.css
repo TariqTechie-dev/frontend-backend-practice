@@ -1,0 +1,63 @@
+h1{
+    background-color: mediumorchid;
+    border:  2px solid;
+}
+
+
+/* Media Queries */
+
+
+/* media queries help us create a responsive 
+website  means it will pit on every deviece */
+
+
+/* har device ke kuch media-features hota  hy  
+jesa  ke    ak device ke  width , height  ya 
+overintation  matlab  device landscape mode
+hy ya potrait   yestar aur be bhot say hay 
+lekin ye zyada use hota hay
+tu agar hum chata hay ke ak device ke media-
+features  mai change aey  tu per hum @media use
+karangay */
+
+
+
+  /* it is media querie for width */
+ @media(width:400px){     /* ab yaha per eska matlab ye hay
+                           ka  agar ha,ar device ka width exactaly 400px hogya tu per  h1
+                             ka color red karo  */
+  h1 {
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+
+  } 
+  div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+  }
+}
+
+
+ @media(min-width:400px){          /*  yaha per eska matlab ka agar mera device ka minmum
+                                      width 400 hojay matlab 400 ye esay uper tu 
+                                       per bgclore change karo h1 ka  
+                                       estara hum maximum kay lay leksktay hy*/
+    h1{
+        background-color: slategrey; 
+
+    }
+}
+
+
+/* media queire for overientation */
+
+
+@media(orientation:landscape){
+    h1{
+        background-color: lawngreen;
+        text-align: center;
+        
+    }
+}

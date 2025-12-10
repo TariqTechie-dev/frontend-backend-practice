@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>flex-size</title>
+    <style>
+        .contain{
+            height: 400px;
+            width: 500px;
+            background-color: blueviolet;
+            border: 2px solid;
+            margin: 50PX auto;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .internal{
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            
+        }
+        #d1{
+            background-color: brown;
+            flex-grow:2;
+            /* flex-shrink: 100px; */
+                       
+            /* flex shorthand */
+            /* flex: 1 1 100px;      ist 1 for grow 2nd for basis and 100px for shrink */
+        }
+        #d2{
+            background-color:yellow;
+            /* flex-basis: 220px; */
+                                                          /* flex-basis flex-size ke property hay ju indivitualy ak 
+                                                         ak content ka size barata hay main axis per*/
+
+        }
+        #d3{
+            background-color: rgb(91, 165, 42);
+            flex-grow: 1;
+                                     
+                                       /* flex-grow  be ak property hay ju ye batata hay ka  agar flex container per 
+                                      khali jaga bacha hay tu ye hum ak flex  ke ak itme ko assign karsktay hay jesa kay hum 
+                                      nay div1 aur div2 ko khali jaga 1 time assign kya  */
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="internal" id="d1">D1</div>
+        <div class="internal" id="d2">D2</div>
+        <div class="internal" id="d3">D3</div>
+    </div>
+</body>
+</html>
