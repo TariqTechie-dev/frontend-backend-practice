@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 590,
-			"y": 415,
-			"lastActivityTimestamp": 1765421772392,
+			"x": 108,
+			"y": 103,
+			"lastActivityTimestamp": 1765422161791,
 			"meta": {}
 		},
 		{
@@ -46,8 +46,55 @@
 			"y": 0,
 			"z": 1,
 			"meta": {},
+			"id": "camera:page:qjUCLWY5p2RJdB9Hvu1tR",
+			"typeName": "camera"
+		},
+		{
+			"x": 51.16628701594533,
+			"y": 6.485158029612791,
+			"z": 0.9821029082774049,
+			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"x": 99,
+			"y": 86.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:JhT_yQu_pypEF8yzD6G_g",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 452,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "EJS IS A  Popular tolls  for  template   "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:qjUCLWY5p2RJdB9Hvu1tR",
+			"index": "a11D9RaV",
+			"typeName": "shape"
 		},
 		{
 			"id": "asset:-1303001223",
@@ -67,10 +114,8 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:H6EP4X-PG6J1MRooL2Ktq"
-			],
-			"hoveredShapeId": "shape:H6EP4X-PG6J1MRooL2Ktq",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -102,6 +147,13 @@
 			"parentId": "page:page",
 			"index": "a3BVCWqV",
 			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:qjUCLWY5p2RJdB9Hvu1tR",
+			"name": "Page 2",
+			"index": "a2ENq0wV",
+			"typeName": "page"
 		},
 		{
 			"x": 14,
@@ -236,9 +288,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:size": "s"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -277,7 +327,7 @@
 			"meta": {},
 			"duplicateProps": null,
 			"id": "instance:instance",
-			"currentPageId": "page:page",
+			"currentPageId": "page:qjUCLWY5p2RJdB9Hvu1tR",
 			"typeName": "instance"
 		},
 		{
@@ -459,6 +509,21 @@
 			"parentId": "page:page",
 			"index": "a1kiHHFV",
 			"typeName": "shape"
+		},
+		{
+			"editingShapeId": "shape:JhT_yQu_pypEF8yzD6G_g",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:JhT_yQu_pypEF8yzD6G_g"
+			],
+			"hoveredShapeId": "shape:JhT_yQu_pypEF8yzD6G_g",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:qjUCLWY5p2RJdB9Hvu1tR",
+			"pageId": "page:qjUCLWY5p2RJdB9Hvu1tR",
+			"typeName": "instance_page_state"
 		}
 	]
 }
