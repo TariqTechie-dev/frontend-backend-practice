@@ -36,14 +36,14 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 108,
-			"y": 103,
-			"lastActivityTimestamp": 1765422161791,
+			"x": 5,
+			"y": -25.8046875,
+			"lastActivityTimestamp": 1765443186821,
 			"meta": {}
 		},
 		{
-			"x": 0,
-			"y": 0,
+			"x": 178,
+			"y": 187.8046875,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:qjUCLWY5p2RJdB9Hvu1tR",
@@ -511,12 +511,10 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:JhT_yQu_pypEF8yzD6G_g",
+			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:JhT_yQu_pypEF8yzD6G_g"
-			],
-			"hoveredShapeId": "shape:JhT_yQu_pypEF8yzD6G_g",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
