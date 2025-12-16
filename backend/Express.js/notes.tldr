@@ -36,14 +36,14 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 90,
-			"y": 163,
-			"lastActivityTimestamp": 1765287145330,
+			"x": 149.42573221757323,
+			"y": 72.5,
+			"lastActivityTimestamp": 1765880635823,
 			"meta": {}
 		},
 		{
-			"x": 118.5,
-			"y": 22.5,
+			"x": 0,
+			"y": 0,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:ivsg_3VvkitJodnbQyINW",
@@ -163,8 +163,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 0,
-			"y": 0,
+			"x": 177.57426778242677,
+			"y": 10.5,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
@@ -514,7 +514,7 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:jaXzrekbSTumGbcb7GCI5",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -665,8 +665,8 @@
 			"meta": {}
 		},
 		{
-			"x": 58.00000000000006,
-			"y": 13.749999999999986,
+			"x": 0,
+			"y": 0,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:5nF-dyJbziDXUmkmncoDw",
@@ -849,9 +849,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 72.55263157894737,
-			"y": 18.08449835526315,
-			"z": 0.926829268292683,
+			"x": 0,
+			"y": 0,
+			"z": 1,
 			"meta": {},
 			"id": "camera:page:YdzhZ627m7wOEjHdWOpye",
 			"typeName": "camera"
@@ -976,10 +976,8 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:--0vkNAFYF58u9OonZqMS"
-			],
-			"hoveredShapeId": "shape:_Kl0ZioLkwBlFupnl4RUM",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -1163,9 +1161,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:color": "red"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -1179,7 +1175,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 849,
+				"w": 1018,
 				"h": 614
 			},
 			"insets": [
@@ -1204,7 +1200,7 @@
 			"meta": {},
 			"duplicateProps": null,
 			"id": "instance:instance",
-			"currentPageId": "page:ZH_c6Yi4EpvkLcAvrDmyZ",
+			"currentPageId": "page:page",
 			"typeName": "instance"
 		},
 		{
